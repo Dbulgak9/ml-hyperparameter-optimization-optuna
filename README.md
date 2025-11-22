@@ -42,20 +42,25 @@ ml-hyperparameter-optimization-optuna/
 ├── .gitignore                      # Ignore rules for Python/ML
 
 ├── LICENSE                         # MIT License
+
 │
+
 ├── notebooks/
 
 │   └── 01_optuna_random_forest.ipynb   # Main notebook
+
 │
+
 ├── src/
 
-│   └── train_optuna_rf.py              # Script version of the pipeline
+│   └── train_optuna_rf.py  # Script version of the pipeline
+
 │
 ├── models/
 
 │   └── best_random_forest.pkl          # Saved optimized model
-│
 
+│
 └── data/
 
     └── (optional dataset files)
